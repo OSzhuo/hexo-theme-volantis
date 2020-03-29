@@ -349,7 +349,7 @@ footer:
     # - icon: fas fa-chess-rook
     #   url: /
     - icon: fab fa-weibo
-      url: /
+      url: https://weibo.com/cofm
     - icon: fas fa-envelope
       url: mailto:oszhuo@gmail.com
     - icon: fab fa-github
