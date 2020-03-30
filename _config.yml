@@ -471,7 +471,7 @@ comments:
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
-    avatar: mp # gravatar style https://valine.js.org/avatar
+    avatar: retro # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     verify: false # valine verify code (true/false)
     notify: false # valine mail notify (true/false)
