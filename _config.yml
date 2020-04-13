@@ -344,7 +344,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [social, info, copyright]
+  layout: [social, info, copyright, br, drivers]
   social:
     # - icon: fas fa-chess-rook
     #   url: /
@@ -356,7 +356,9 @@ footer:
       url: https://github.com/OSzhuo
     - icon: fas fa-rss
       url: atom.xml
-  copyright: '[Copyright © 2018-2020 Gmix](https://www.ilx.info) | Powered by [Hexo](https://hexo.io)'
+#  copyright: '[Copyright © 2018-2020 Gmix](https://www.ilx.info) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
+  copyright: '[Copyright © 2018-2020 Gmix](https://www.ilx.info)'
+  drivers: '[![Hexo](https://img.shields.io/badge/Powered_by-Hexo-0E83CD)](https://hexo.io) [![Volantis](https://img.shields.io/badge/Theme-Volantis-brightgreen)](https://volantis.js.org/) [![又拍云](/images/CDN-upyun-blue.svg)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral) ![UV](https://img.shields.io/badge/UV-todo-orange) ![PV](https://img.shields.io/badge/PV-todo-lightgray)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 
