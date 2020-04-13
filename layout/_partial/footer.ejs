@@ -41,6 +41,31 @@
         <div class='copyright'>
         <%- markdown(theme.footer.copyright) %>
         </div>
+      <% } else if (item == 'badges') { %>
+        <div>
+        <% (theme.footer.badges||[]).forEach(function(val){ %>
+          <%
+            var type = false
+            if (val.type && (val.type == 'pv' || val.type == 'uv') && theme.plugins.busuanzi) {
+              var type = val.type
+            }
+          %>
+          <div class="github-badge">
+            <% if (val.url) { %>
+              <a style="color: #fff" href="<%- val.url %>" target="_blank" title="<%- val.title ? val.title :'' %>">
+            <% } %>
+            <span class="badge-subject"><%- val.lable %></span><span class="badge-value bg-<%- val.color ? val.color : 'brightgreen' %>"<% if (type) {%> id="busuanzi_value_site_<%- type %>" <% } %>>
+              <% if (val.logo) { %>
+                <img src="<%- val.logo%>"/>
+              <% } %>
+              <%- val.message %>
+            </span>
+            <% if (val.url) { %>
+              </a>
+            <% } %>
+          </div>
+        <% }) %>
+        </div>
       <% } else { %>
         <% if (item in theme.footer) { %>
           <div><%- markdown(theme.footer[item]) %></div>
