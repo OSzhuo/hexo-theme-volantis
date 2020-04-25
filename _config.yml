@@ -104,7 +104,7 @@ cover:
       url: tags/
     - name: 轻版
       icon: fas fa-rocket
-      url: https://lite.ilx.info
+      url: https://lite.0bject.cn
     - name: 关于
       icon: fas fa-user-shield
       url: about/
@@ -115,7 +115,7 @@ navbar:
   logo: # choose [img] or [icon + title]
     img:
     icon: fas fa-fan' style='color:#FF6347;font-size:1.875rem'
-    title: Gmix<b><sup style='color:#ff9800'>beta</sup></b>
+    title: 淘淘鲁<b><sup style='color:#ff9800'>beta</sup></b>
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
     # This menu will be displayed on the laptop or desktop.
@@ -135,7 +135,7 @@ navbar:
         url: tags/
       - name: 轻版
         icon: fas fa-rocket
-        url: https://lite.ilx.info
+        url: https://lite.0bject.cn
       - name: 关于
         icon: fas fa-info
         url: about/
@@ -156,7 +156,7 @@ navbar:
         url: tags/
       - name: 轻版
         icon: fas fa-rocket
-        url: https://lite.ilx.info
+        url: https://lite.0bject.cn
       - name: 关于
         icon: fas fa-user-astronaut
         url: about/
@@ -201,8 +201,8 @@ meta:
   # 默认文章作者（可在front-matter中覆盖）
   author:
     avatar: /images/author.png
-    name: Gmix
-    url: https://www.ilx.info
+    name: 淘淘鲁
+    url: https://www.0bject.cn
   # 文章创建日期
   date:
     icon: fas fa-calendar-alt
@@ -351,13 +351,13 @@ footer:
     - icon: fab fa-weibo
       url: https://weibo.com/cofm
     - icon: fas fa-envelope
-      url: mailto:oszhuo@gmail.com
+      url: mailto:phenix.zhuo@gmail.com
     - icon: fab fa-github
-      url: https://github.com/OSzhuo
+      url: https://github.com/Phenix93
     - icon: fas fa-rss
       url: atom.xml
-#  copyright: '[Copyright © 2018-2020 Gmix](https://www.ilx.info) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
-  copyright: '[Copyright © 2018-2020 Gmix](https://www.ilx.info)'
+#  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
+  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | [京ICP备20012798号-1](http://www.beian.miit.gov.cn)'
   # drivers: '[![Hexo](https://img.shields.io/badge/Powered_by-Hexo-0E83CD)](https://hexo.io) [![Volantis](https://img.shields.io/badge/Theme-Volantis-brightgreen)](https://volantis.js.org/) [![又拍云](/images/CDN-upyun-blue.svg)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral) ![UV](https://img.shields.io/badge/UV-todo-orange) ![PV](https://img.shields.io/badge/PV-todo-lightgray)'
   badges:
     # - logo: /images/CDN-upyun-blue.svg #data:image/svg+xml;base64,PHN2Z...wvZz4KPC9zdmc+
