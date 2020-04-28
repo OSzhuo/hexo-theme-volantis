@@ -357,7 +357,7 @@ footer:
     - icon: fas fa-rss
       url: atom.xml
 #  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
-  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | [京ICP备20012798号-1](http://www.beian.miit.gov.cn)'
+  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | [京ICP备20012798号-1](http://www.beian.miit.gov.cn) | <img src="/images/net110.png" style="height:0.66rem"/> [鲁公网安备 37132202200004号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202200004)'
   # drivers: '[![Hexo](https://img.shields.io/badge/Powered_by-Hexo-0E83CD)](https://hexo.io) [![Volantis](https://img.shields.io/badge/Theme-Volantis-brightgreen)](https://volantis.js.org/) [![又拍云](/images/CDN-upyun-blue.svg)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral) ![UV](https://img.shields.io/badge/UV-todo-orange) ![PV](https://img.shields.io/badge/PV-todo-lightgray)'
   badges:
     # - logo: /images/CDN-upyun-blue.svg #data:image/svg+xml;base64,PHN2Z...wvZz4KPC9zdmc+
@@ -503,7 +503,7 @@ comments:
     js: https://unpkg.com/valine/dist/Valine.min.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
-    placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+    placeholder: 本站开启人工审核模式，评论审核后才会显示~~ # valine comment input placeholder(like: Please leave your footprints )
     avatar: retro # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     verify: false # valine verify code (true/false)
