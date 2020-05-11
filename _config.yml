@@ -104,7 +104,7 @@ cover:
       url: tags/
     - name: 轻版
       icon: fas fa-rocket
-      url: https://lite.0bject.cn
+      url: https://lite.totoro.tech
     - name: 关于
       icon: fas fa-user-shield
       url: about/
@@ -135,7 +135,7 @@ navbar:
         url: tags/
       - name: 轻版
         icon: fas fa-rocket
-        url: https://lite.0bject.cn
+        url: https://lite.totoro.tech
       - name: 关于
         icon: fas fa-info
         url: about/
@@ -156,7 +156,7 @@ navbar:
         url: tags/
       - name: 轻版
         icon: fas fa-rocket
-        url: https://lite.0bject.cn
+        url: https://lite.totoro.tech
       - name: 关于
         icon: fas fa-user-astronaut
         url: about/
@@ -202,7 +202,7 @@ meta:
   author:
     avatar: /images/author.png
     name: 淘淘鲁
-    url: https://www.0bject.cn
+    url: https://www.totoro.tech
   # 文章创建日期
   date:
     icon: fas fa-calendar-alt
@@ -356,8 +356,8 @@ footer:
       url: https://github.com/Phenix93
     - icon: fas fa-rss
       url: atom.xml
-#  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
-  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.0bject.cn) | [京ICP备20012798号-1](http://www.beian.miit.gov.cn) | <img src="/images/net110.png" style="height:0.66rem"/> [鲁公网安备 37132202200004号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202200004)'
+#  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.totoro.tech) | Powered by [Hexo](https://hexo.io) [![又拍云](/images/upyun.png)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)'
+  copyright: '[Copyright © 2018-2020 淘淘鲁](https://www.totoro.tech) | [京ICP备20012798号-1](http://www.beian.miit.gov.cn) | <img src="/images/net110.png" style="height:0.66rem"/> [鲁公网安备 37132202200004号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202200004)'
   # drivers: '[![Hexo](https://img.shields.io/badge/Powered_by-Hexo-0E83CD)](https://hexo.io) [![Volantis](https://img.shields.io/badge/Theme-Volantis-brightgreen)](https://volantis.js.org/) [![又拍云](/images/CDN-upyun-blue.svg)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral) ![UV](https://img.shields.io/badge/UV-todo-orange) ![PV](https://img.shields.io/badge/PV-todo-lightgray)'
   badges:
     # - logo: /images/CDN-upyun-blue.svg #data:image/svg+xml;base64,PHN2Z...wvZz4KPC9zdmc+
