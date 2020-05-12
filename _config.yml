@@ -119,7 +119,7 @@ cover:
       icon: fas fa-rocket
       url: https://lite.totoro.tech
     - name: 关于
-      icon: fas fa-user-shield
+      icon: fas fa-info
       url: about/
 
 
@@ -131,48 +131,25 @@ navbar:
     title: 淘淘鲁<b><sup style='color:#ff9800'>beta</sup></b>
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
-    # This menu will be displayed on the laptop or desktop.
-    # 在桌面端显示的导航菜单
-    on_desktop:
-      - name: 首页
-        icon: fas fa-home
-        url: /
-      - name: 归档
-        icon: fas fa-archive
-        url: archives/
-      - name: 分类
-        icon: fas fa-folder-open
-        url: categories/
-      - name: 标签
-        icon: fas fa-tags
-        url: tags/
-      - name: 轻版
-        icon: fas fa-rocket
-        url: https://lite.totoro.tech
-      - name: 关于
-        icon: fas fa-info
-        url: about/
+    - name: 首页
+      icon: fas fa-home
+      url: /
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
+    - name: 轻版
+      icon: fas fa-rocket
+      url: https://lite.totoro.tech
+    - name: 关于
+      icon: fas fa-user-astronaut
+      url: about/
 
-    # 手机端导航菜单（从右上角的按钮点击展开）
-    on_mobile:
-      - name: 首页
-        icon: fas fa-flag
-        url: /
-      - name: 归档
-        icon: fas fa-archive
-        url: archives/
-      - name: 分类
-        icon: fas fa-folder-open
-        url: categories/
-      - name: 标签
-        icon: fas fa-tags
-        url: tags/
-      - name: 轻版
-        icon: fas fa-rocket
-        url: https://lite.totoro.tech
-      - name: 关于
-        icon: fas fa-user-astronaut
-        url: about/
   search: 搜索一下   # Search bar placeholder
 
 layout:
